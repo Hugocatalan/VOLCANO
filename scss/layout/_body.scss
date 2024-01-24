@@ -68,7 +68,9 @@ article {
   justify-content: center;
   text-align: center;
    font-size: medium;
+   padding: aopx;
    img{
+
     width: 50%;
     padding-bottom: 1.25rem;
     min-width: 20.25rem;
@@ -81,5 +83,10 @@ article {
    div{  
     background-color: rgba(0, 0, 0, 0.712);
      }
-  
+  p{
+    padding: 10px;
+  }
+  h2{
+    padding: .625rem;
+  }
 }

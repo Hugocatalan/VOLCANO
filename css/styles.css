@@ -147,7 +147,8 @@ article {
   display: flex;
   justify-content: center;
   text-align: center;
-  font-size: medium; }
+  font-size: medium;
+  padding: aopx; }
   article img {
     width: 50%;
     padding-bottom: 1.25rem;
@@ -157,6 +158,10 @@ article {
     transform: scaleX(1.3); }
   article div {
     background-color: rgba(0, 0, 0, 0.712); }
+  article p {
+    padding: 10px; }
+  article h2 {
+    padding: .625rem; }
 
 .grid-item {
   display: flex;
