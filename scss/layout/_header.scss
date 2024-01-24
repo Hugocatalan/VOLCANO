@@ -1,0 +1,38 @@
+header{
+    
+    .logo {
+        img{
+        height: 4.375rem; 
+        width: auto; 
+        transition: 0.5s;
+        padding: .625rem;
+        padding-left: 2.25rem;
+        padding-right: 3.875rem;
+        &:hover{
+            transform: scaleX(1.2); }
+    }
+    }
+    
+    
+    .bg-mio{
+        background-image: $BackgrounDegrade;
+    }
+    li, ul, a{
+        font-weight: 700;
+        color: rgb(254, 252, 252);
+        gap: 1.25rem;
+    }
+  
+    .nav-link{
+        color: white;
+    }
+    .dropdown-item{
+        font-weight: 700;
+        color: white;
+    }
+   button.navbar-toggler{
+    background-color:$BackgrounDegrade;
+       border: .0625rem white;
+            }
+           
+}

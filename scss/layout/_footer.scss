@@ -1,0 +1,90 @@
+footer{
+    background-image:$BackgrounDegrade;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+   
+
+.footerContainer{
+    width: 100%;
+    padding: 4.375rem 1.875rem 1.25rem;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+    a{
+        text-decoration: none;
+        padding: .625rem;
+        background-color: white;
+        margin: .625rem;
+        border-radius: 50%;
+        i{
+            font-size: 2em;
+            color: black;
+            opacity: 0.9;
+        }
+        }
+     
+}
+
+
+
+.socialIcons a:hover{
+background-color: black;
+transition: 0.5s;
+}
+
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 1.875rem 0;
+}
+
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.footerNav ul li a{
+    color: white;
+    margin: 1.25rem;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+
+.footerBottom{
+    background-color:black ;
+    padding: 1.25rem;
+    text-align: center;
+}
+
+.footerBottom p{
+color: white;
+}
+
+.disen{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: .0625rem;
+    font-weight: 400;
+    margin: .375rem .3125rem;
+}
+
+}@media (max-width: 43.75rem){
+    .footerNav ul{
+        flex-direction: column;
+    }
+    .footerNav ul li a{
+        width: 100%;
+        text-align: center;
+        margin: .625rem;
+}}

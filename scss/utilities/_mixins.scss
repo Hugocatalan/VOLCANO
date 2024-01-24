@@ -1,0 +1,9 @@
+//bloque de codigo manipulable como parametro//
+
+@mixin flex($direction,$justify,$alingn,$gap) {
+    display:flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $alingn;
+    gap: $gap;
+}

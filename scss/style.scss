@@ -1,0 +1,11 @@
+//Orden a llamar: Partial de variables y funciones//
+@import "./utilities/variables";
+@import "./utilities/mixins";
+//Partial de base y layout//
+@import "./layout/header";
+@import "./layout/footer";
+@import "./layout/body";
+@import "./layout/galeria";
+@import "./layout/horarios";
+@import "./layout/comoLlegar";
+//Partial de componentes//

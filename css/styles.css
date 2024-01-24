@@ -1,0 +1,203 @@
+header .logo img {
+  height: 4.375rem;
+  width: auto;
+  transition: 0.5s;
+  padding: .625rem;
+  padding-left: 2.25rem;
+  padding-right: 3.875rem; }
+  header .logo img:hover {
+    transform: scaleX(1.2); }
+
+header .bg-mio {
+  background-image: radial-gradient(circle, #7f6916, #7a4226, #592a31, #2c1c28, #070707); }
+
+header li, header ul, header a {
+  font-weight: 700;
+  color: #fefcfc;
+  gap: 1.25rem; }
+
+header .nav-link {
+  color: white; }
+
+header .dropdown-item {
+  font-weight: 700;
+  color: white; }
+
+header button.navbar-toggler {
+  background-color: radial-gradient(circle, #7f6916, #7a4226, #592a31, #2c1c28, #070707);
+  border: .0625rem white; }
+
+footer {
+  background-image: radial-gradient(circle, #7f6916, #7a4226, #592a31, #2c1c28, #070707);
+  position: relative;
+  bottom: 0;
+  width: 100%; }
+  footer .footerContainer {
+    width: 100%;
+    padding: 4.375rem 1.875rem 1.25rem; }
+  footer .socialIcons {
+    display: flex;
+    justify-content: center; }
+    footer .socialIcons a {
+      text-decoration: none;
+      padding: .625rem;
+      background-color: white;
+      margin: .625rem;
+      border-radius: 50%; }
+      footer .socialIcons a i {
+        font-size: 2em;
+        color: black;
+        opacity: 0.9; }
+  footer .socialIcons a:hover {
+    background-color: black;
+    transition: 0.5s; }
+  footer .socialIcons a:hover i {
+    color: white;
+    transition: 0.5s; }
+  footer .footerNav {
+    margin: 1.875rem 0; }
+  footer .footerNav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none; }
+  footer .footerNav ul li a {
+    color: white;
+    margin: 1.25rem;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s; }
+  footer .footerNav ul li a:hover {
+    opacity: 1; }
+  footer .footerBottom {
+    background-color: black;
+    padding: 1.25rem;
+    text-align: center; }
+  footer .footerBottom p {
+    color: white; }
+  footer .disen {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: .0625rem;
+    font-weight: 400;
+    margin: .375rem .3125rem; }
+
+@media (max-width: 43.75rem) {
+  .footerNav ul {
+    flex-direction: column; }
+  .footerNav ul li a {
+    width: 100%;
+    text-align: center;
+    margin: .625rem; } }
+
+/* body */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 90vh;
+  background-image: url("../asset/frente-gym.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  background-attachment: fixed;
+  grid-template-rows: 1fr auto; }
+  body h1 {
+    color: #ff630e;
+    padding-top: .9375rem; }
+
+h2 {
+  color: #c5212a; }
+
+iframe {
+  width: 40rem;
+  height: 20.25rem; }
+
+.youtube {
+  display: flex;
+  position: relative;
+  padding-bottom: 10%;
+  width: 100%;
+  height: 100%;
+  justify-content: center; }
+  .youtube img {
+    width: 100%;
+    padding: 3 rem; }
+
+.btn-wsp {
+  position: fixed;
+  width: 3.4375rem;
+  height: 3.4375rem;
+  line-height: 3.4375rem;
+  bottom: 2.875rem;
+  right: 2.875rem;
+  background: #0df053;
+  color: #fff;
+  border-radius: 3.125rem;
+  text-align: center;
+  font-size: 1.875rem;
+  box-shadow: 0rem 0.0625rem 0.625rem rgba(0, 0, 0, 0.3);
+  z-index: 100; }
+
+.btn-wsp:hover {
+  text-decoration: none;
+  color: #0df053;
+  background-color: #fff; }
+
+article {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: medium; }
+  article img {
+    width: 50%;
+    padding-bottom: 1.25rem;
+    min-width: 20.25rem;
+    transition: 0.5s; }
+  article img:hover {
+    transform: scaleX(1.3); }
+  article div {
+    background-color: rgba(0, 0, 0, 0.712); }
+
+.grid-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  transition: transform 0.3s ease-in-out;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+  .grid-item:hover {
+    filter: opacity(0.9);
+    transform: scale(1.04); }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: minmax(200px, auto);
+  gap: 20px;
+  padding: 20px;
+  grid-auto-flow: dense; }
+
+@media (min-width: 600px) {
+  .wide {
+    grid-column: span 2; }
+  .tall {
+    grid-row: span 2; } }
+
+.horarios {
+  display: flex;
+  position: relative;
+  padding-bottom: 10%;
+  width: 100%;
+  height: 100%;
+  justify-content: center; }
+  .horarios img {
+    width: 30rem;
+    height: 30rem;
+    padding: 1.25rem; }
+
+.article {
+  text-align: start; }
+  .article h1 {
+    text-align: center; }
